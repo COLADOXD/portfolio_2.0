@@ -4,7 +4,7 @@
 
 h1 {
   color: #1b1b1b;
-  margin-bottom: 16px;
+  font-size: 36px;
 }
 
 .dark h1 {
@@ -12,26 +12,28 @@ h1 {
 }
 
 p {
-  color: #1b1b1b;
+  color: #000000;
   size: 20px;
 }
 
 .dark p {
   color: #e1e1e1;
 }
+
 .custom-background {
-  position: absolute;
-  inset: 0;
-  z-index: -10;
-  height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: -2;
+  min-height: 100vh;
   width: 100%;
-  display: flex;
-  align-items: center;
-  padding: 24px 20px;
+  background-color: #f9fafb; /* bg-gray-50 */
+  background-image: radial-gradient(ellipse 80% 80% at 50% -20%, rgba(217, 216, 255, 0.5), rgba(255, 255, 255, 0.9));
 }
 
 .custom-background {
-  background: radial-gradient(125% 125% at 50% 10%, #9e9c9c 40%, rgb(254, 254, 254) 100%);
+  background-color: #ffffff; /* dark:bg-gray-950 */
+  background-image: radial-gradient(ellipse 80% 80% at 50% -20%, rgba(120, 119, 198, 0.3), rgba(255, 255, 255, 0));
 }
 
 .dark .custom-background {

@@ -3,7 +3,7 @@ import { NavComponent } from "./NavComponent";
 
 export const HeaderComponent = () => {
   return (
-    <div className="w-[800px]">
+    <div className="max-w-[800px]">
       <NavComponent />
       <AvatarComponent />
     </div>
