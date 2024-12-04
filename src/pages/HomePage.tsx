@@ -4,7 +4,7 @@ import { HeaderComponent } from "../components/HeaderComponent";
 
 export const HomePage = () => {
   return (
-    <div className="flex flex-col justify-center items-center px-4 w-screen">
+    <div className="flex flex-col justify-center items-center px-4">
       <HeaderComponent />
       <BodyComponent />
       <FooterComponent />
