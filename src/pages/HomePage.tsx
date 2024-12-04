@@ -4,11 +4,9 @@ import { HeaderComponent } from "../components/HeaderComponent";
 
 export const HomePage = () => {
   return (
-    <div className="flex flex-col justify-center items-center px-4">
+    <div className="flex flex-col justify-center items-center px-4 w-screen">
       <HeaderComponent />
-      <div className="bg-gray-700 w-full h-[1px] my-10" />
       <BodyComponent />
-      <div className="bg-gray-700 w-full h-[1px] my-10" />
       <FooterComponent />
     </div>
   );

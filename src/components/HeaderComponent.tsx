@@ -6,6 +6,7 @@ export const HeaderComponent = () => {
     <div className="max-w-[800px]">
       <NavComponent />
       <AvatarComponent />
+      <div className="bg-gray-700 h-[1px] my-10" />
     </div>
   );
 };

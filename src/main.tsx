@@ -5,7 +5,7 @@ import "./index.css";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <div className="custom-background "></div>
+    <div className="custom-background"></div>
     <HomePage />
   </StrictMode>
 );

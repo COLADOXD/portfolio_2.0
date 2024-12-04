@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 h1 {
+  font-size: 48px;
   color: #1b1b1b;
-  font-size: 36px;
 }
 
 .dark h1 {
@@ -13,11 +13,23 @@ h1 {
 
 p {
   color: #000000;
-  size: 20px;
+  font-size: 25px;
 }
 
 .dark p {
   color: #e1e1e1;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+strong {
+  color: transparent;
+  font-size: 25px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #60a5fa, #7c3aed);
 }
 
 .custom-background {
