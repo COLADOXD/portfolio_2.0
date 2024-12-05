@@ -1,3 +1,9 @@
+import { ContactComponent } from "./ContactComponent";
+
 export const FooterComponent = () => {
-  return <p>Footer Component</p>;
+  return (
+    <div className="max-w-[800px]">
+      <ContactComponent />
+    </div>
+  );
 };
