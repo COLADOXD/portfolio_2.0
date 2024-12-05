@@ -10,6 +10,7 @@ export const BodyComponent = () => {
       <ProjectsComponent />
       <div className="bg-gray-700 w-full h-[1px] my-10" />
       <LanguagesComponent />
+      <div className="bg-gray-700 w-full h-[1px] my-10" />
     </div>
   );
 };

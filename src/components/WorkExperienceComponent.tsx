@@ -1,4 +1,4 @@
-import WorkExperienceIcon from "../assets/svg/WorkExperience";
+import WorkExperienceIcon from "../assets/svg/WorkExperienceIcon";
 
 const Experiences = [
   {

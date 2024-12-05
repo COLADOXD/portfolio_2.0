@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import SunIcon from "../assets/svg/Sun";
-import MoonIcon from "../assets/svg/Moon";
+import SunIcon from "../assets/svg/SunIcon";
+import MoonIcon from "../assets/svg/MoonIcon";
 
 export const ThemeToggle = () => {
   const [theme, setTheme] = useState<"light" | "dark">("dark");
